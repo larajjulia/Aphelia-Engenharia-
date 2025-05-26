@@ -1,0 +1,86 @@
+#navbar_login {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;      
+}
+
+#login_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 70px;
+    border: 3px solid #f8d098;
+    background-color: #f8d098;
+    border-radius: 5px;
+    width: 400px;
+    height: 450px;
+}
+
+.title_login {
+    font-family: "Atkinson Hyperlegible Next", serif;;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.section-subtitle2 {
+    font-family: "Atkinson Hyperlegible Next", serif;;
+    font-size: 2.1875rem;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+#login_form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.login_label {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+
+.login_input {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.login_input:focus {
+    border-radius: 10px;
+}
+
+#login_form button {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+#login_form button:hover {
+    background-color: #ffffff;
+    color: #1d1d1d;
+    border-radius: 10px;
+}
