@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $('#mobile_btn').on('click', function() {
+$(document).ready(function () {
+    $('#mobile_btn').on('click', function () {
         $('#mobile_menu').toggleClass('active');
         $('#mobile_btn').find('i').toggleClass('fa-x');
     });
@@ -7,7 +7,7 @@ $(document).ready(function() {
     const sections = $('section');
     const navItems = $('.nav-item');
 
-    $(window).on('scroll', function() {
+    function highlightNavByScroll() {
         const header = $('header');
         const scrollPosition = $(window).scrollTop() - header.outerHeight();
 
@@ -19,26 +19,41 @@ $(document).ready(function() {
             header.css('box-shadow', '5px 1px 5px rgba(0,0,0,0.1)');
         }
 
-        sections.each(function(i){
+        sections.each(function (i) {
             const section = $(this);
             const sectionTop = section.offset().top - 96;
-            const sectionBottom = sectionTop+ section.outerHeight();
+            const sectionBottom = sectionTop + section.outerHeight();
 
             if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
                 activeSectionIndex = i;
                 return false;
             }
-        })
+        });
 
-        navItems.removeClass('active')
+        navItems.removeClass('active');
         $(navItems[activeSectionIndex]).addClass('active');
-    });
+    }
 
+    function highlightNavByUrl() {
+        const currentPath = window.location.pathname.split('/').pop(); // ex: "blog.php" ou "form.html"
+
+        $('.nav-item').each(function () {
+            const link = $(this).find('a').attr('href');
+
+            if (link && link.includes(currentPath)) {
+            $(this).addClass('active');
+            }
+        });
+    }
+
+
+    highlightNavByUrl();
+
+    // ScrollReveal continua funcionando normalmente
     ScrollReveal().reveal('#cta', {
         origin: 'left',
         duration: 1500,
         distance: '20%'
-
     });
 
     ScrollReveal().reveal('.work', {
@@ -71,7 +86,6 @@ $(document).ready(function() {
         distance: '20%'
     });
 
-    
     ScrollReveal().reveal('#contact_form', {
         origin: 'right',
         duration: 1000,

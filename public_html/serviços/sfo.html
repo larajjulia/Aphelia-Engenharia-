@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sistemas Fotovoltáicos Ongrid</title>
+    <title>Projeto Padrão de Entrada e Média e Alta</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../src/styles/styles.css">
-    <link rel="stylesheet" href="../index.html">
+    <link rel="stylesheet" href="../index.php">
+    <link rel="stylesheet" href="../src/styles/post.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
@@ -19,19 +20,19 @@
             
             <ul id="nav_list">
                 <li class="nav-item active">
-                    <a href="../index.html#home">Início</a>
+                    <a href="../index.php#home">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../index.html#services">Serviços</a>
+                    <a href="../index.php#services">Serviços</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../index.html#enterprise">Empresa</a>
+                    <a href="../index.php#enterprise">Empresa</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../blog.html">Blog</a>
+                    <a href="../blog.php">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../index.html#testimonials">Avaliações</a>
+                    <a href="../index.php#testimonials">Avaliações</a>
                 </li>
                 <li class="nav-item">
                     <a href="../form.html">Contato</a>
@@ -50,19 +51,19 @@
         <div id="mobile_menu">
             <ul id="mobile_nav_list">
                 <li class="nav-item">
-                    <a href="../index.html#home">Início</a>
+                    <a href="../index.php#home">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../index.html#services">Serviços</a>
+                    <a href="../index.php#services">Serviços</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../index.html#enterprise">Empresa</a>
+                    <a href="../index.php#enterprise">Empresa</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../blog.html">Blog</a>
+                    <a href="../blog.php">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../index.html#testimonials">Avaliações</a>
+                    <a href="../index.php#testimonials">Avaliações</a>
                 </li>
                 <li class="nav-item">
                     <a href="../form.html">Contato</a>
@@ -74,15 +75,17 @@
             </button>
         </div>
     </header>
-    
+
+    <div class="banner">
+        <img src="../imagens/cehtml/meetings.jpg" alt="pessoas reunidas em uma mesa com seus notebooks" width="100%" height="200px">
+    </div> 
+
     <h2 class="section-subtitle">
-        Sistemas Fotovoltáicos Ongrid
+       Sistemas Fotovoltáicos Ongrid
     </h2>
     <p id="ce_description">
-        Subheading taht sets up context, shares more info about the<br>author, or generally gets people psyched to keep reading
+        Subheading taht sets up context, shares more info about the author, or generally gets people psyched to keep reading
     </p>
-
-    <img src="../imagens/cehtml/meetings.jpg" alt="pessoas reunidas em uma mesa com seus notebooks" width="50%">
 
     <p id="ce_text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -114,14 +117,14 @@
         orci id malesuada.
     </p>
 
-    <div class="services_content">
+    <div id="contact_content">
         <h2 class="section-subtitle">Orçamento via WhatsApp</h2>
         <br>
-        <p id="wpp_ce">
+        <p id="wpp_contact">
             Fale com um Engenheiro Eletricista agora e faça seu orçamento!
         </p>
         <br>
-        <a href="https://wa.me//5511965069066?text=Olá!%20Tenho%20interesse%20em%20obter%20um%20sistema%20fotovoltáico%20Ongrid." target="_blank" style="text-decoration: none;">
+        <a href="https://wa.me//5511965069066?text=Olá!%20Tenho%20interesse%20em%20realizar%20um%20orçamento." target="_blank" id="contact_item" style="text-decoration: none;">
             <button class="btn-default">Mensagem Aqui</button>
         </a>
     </div>
@@ -149,7 +152,7 @@
     </footer>
 
     <aside class="whats">
-        <a href="https://wa.me//5511965069066?text=Olá!%20Tenho%20interesse%20em%20obter%20um%20sistema%20fotovoltáico%20Ongrid." target="_blank">
+        <a href="https://wa.me//5511965069066?text=Olá!%20Tenho%20interesse%20em%20obter%20um%20laudo%20e/ou%20prontuário%20elétrico." target="_blank">
             <img src="../imagens/whatsapp.png" width="80" alt="Fale conosco pelo WhatsApp">
         </a>
     </aside>

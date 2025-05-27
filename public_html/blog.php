@@ -24,19 +24,19 @@
             
             <ul id="nav_list">
                 <li class="nav-item active">
-                    <a href="#home">Início</a>
+                    <a href="index.php#home">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#services">Serviços</a>
+                    <a href="index.php#services">Serviços</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#enterprise">Empresa</a>
+                    <a href="index.php#enterprise">Empresa</a>
                 </li>
                 <li class="nav-item">
-                    <a href="blog.html">Blog</a>
+                    <a href="blog.php">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
+                    <a href="index.php#testimonials">Avaliações</a>
                 </li>
                 <li class="nav-item">
                     <a href="form.html">Contato</a>
@@ -55,19 +55,19 @@
         <div id="mobile_menu">
             <ul id="mobile_nav_list">
                 <li class="nav-item">
-                    <a href="#home">Início</a>
+                    <a href="index.php#home">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#services">Serviços</a>
+                    <a href="index.php#services">Serviços</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#enterprise">Empresa</a>
+                    <a href="index.php#enterprise">Empresa</a>
                 </li>
                 <li class="nav-item">
-                    <a href="blog.html">Blog</a>
+                    <a href="blog.php">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
+                    <a href="index.php#testimonials">Avaliações</a>
                 </li>
                 <li class="nav-item">
                     <a href="form.html">Contato</a>

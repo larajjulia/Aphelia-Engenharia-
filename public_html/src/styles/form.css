@@ -17,8 +17,8 @@
     justify-content: center;
     flex-direction: column;
     padding: 10px 45px;
-    max-width: 45%;
-    min-width: 300px;
+    max-width: 10%;
+    min-width: 100px;
     background-color: #fed8a2;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -27,7 +27,7 @@
 #contact_item {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
 }
 
 .contact_label {
