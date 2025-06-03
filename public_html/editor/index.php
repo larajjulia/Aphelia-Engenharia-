@@ -9,8 +9,10 @@ function login($senha, $user){
     $verSenha = $dotenv["SENHA"];
     if ($senha == $verSenha && $user == $verUser) {
             $_SESSION['Usuario'] = serialize($dotenv);
+            echo "logou";
             return true;
         } else {
+            echo "eita";
             return false;
         }
 }
@@ -29,6 +31,7 @@ switch ($_POST) {
         $dotenv = parse_ini_file(".env");
         if($_POST["txtLogin"] && $_POST["txtSenha"]){
             if (login($_POST["txtLogin"], $_POST["txtSenha"])) {
+                echo "banana";
                 include_once "interface.php";
             } else {
                 include_once "../view/loginNRealizado.php";

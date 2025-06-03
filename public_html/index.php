@@ -132,9 +132,7 @@
                     <img src="imagens/work1.jpg" alt="Gerador de Energia" class="work-image" width="230" height="221">
                     <h3 class="work-title">Projeto Padrão de Entrada</h3>
                     <span class="work-description">
-                        O projeto elétrico padrão de entrada define como a energia da concessionária será ligada ao imóvel, 
-                        especificando medidor, cabos, disjuntores e aterramento, conforme normas técnicas. É obrigatório e 
-                        deve ser feito por profissional habilitado.
+                        O projeto elétrico padrão de entrada define como a energia da concessionária será ligada ao imóvel.
                     </span>
                     <div class="work-ask">
                         <a href="serviços/ppe.html" style="text-decoration: none;">
@@ -152,8 +150,7 @@
                     <img src="imagens/work8.jpg" alt="Lâmpada com coloração amarelada ligada num ambiente escuro" class="work-image" width="230" height="221">
                     <h3 class="work-title">Projeto Padrão de Entrada de Média e Alta Tensão</h3>
                     <span class="work-description">
-                        É o projeto que define como a energia em média ou alta tensão será ligada da concessionária ao imóvel, detalhando equipamentos como transformadores, 
-                        chaves e proteções, conforme normas técnicas.
+                        É o projeto que define como a energia em média ou alta tensão será ligada da concessionária ao imóvel.
                     </span>
                     <div class="work-ask">
                         <a href="serviços/ppema.html" style="text-decoration: none;">
@@ -172,7 +169,6 @@
                     <h3 class="work-title">Sistemas Fotovoltáicos Ongrid</h3>
                     <span class="work-description">
                         Sistemas fotovoltaicos on-grid são conectados à rede elétrica e geram energia solar para consumo imediato. 
-                        O excedente é injetado na rede e convertido em créditos pela concessionária.
                     </span>
                     <div class="work-ask">
                         <a href="serviços/sfo.html" style="text-decoration: none;">
@@ -192,8 +188,7 @@
                     <img src="imagens/work6.png" alt="Gerador de Energia" class="work-image" width="230" height="221">
                     <h3 class="work-title">Laudos e Prontuários Elétricos</h3>
                     <span class="work-description">
-                        Laudos e prontuários elétricos são documentos técnicos que avaliam as condições das instalações elétricas, 
-                        verificando segurança, conformidade com normas (como a NR-10) e riscos.
+                        Laudos e prontuários elétricos são documentos técnicos que avaliam as condições das instalações elétricas.
                     </span>
                     <div class="work-ask">
                         <a href="serviços/lpe.html" style="text-decoration: none;">
@@ -211,9 +206,7 @@
                     <img src="imagens/work3.jpg" alt="Gerador de Energia" class="work-image" width="230" height="221">
                     <h3 class="work-title">Projetos Elétricos</h3>
                     <span class="work-description">
-                        Projetos elétricos são documentos que planejam e detalham a instalação elétrica de um imóvel, 
-                        indicando pontos de energia, iluminação, cabos, disjuntores e dispositivos de proteção, conforme 
-                        normas técnicas, para garantir segurança, eficiência e funcionamento adequado do sistema elétrico.
+                        Projetos elétricos são documentos que planejam e detalham a instalação elétrica de um imóvel.
                     </span>
                     <div class="work-ask">
                         <a href="serviços/pe.html" style="text-decoration: none;">
@@ -231,9 +224,7 @@
                     <img src="imagens/work7.jpg" alt="Gerador de Energia" class="work-image" width="230" height="221">
                     <h3 class="work-title">Consultorias Elétricas</h3>
                     <span class="work-description">
-                        Consultorias elétricas são serviços técnicos especializados que avaliam, orientam e propõem soluções 
-                        para instalações elétricas, visando melhorar a segurança, eficiência energética, adequação às normas 
-                        e redução de custos em projetos novos ou existentes.
+                        Suporte para elaboração de propostas técnico comerciais com levantamento em planta e/ou vistorias técnicas.
                     </span>
                     <div class="work-ask">
                         <a href="serviços/ce.html" style="text-decoration: none;">
