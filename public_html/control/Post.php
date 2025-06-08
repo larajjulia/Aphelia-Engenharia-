@@ -87,6 +87,21 @@ class Post {
         }
     }
     
+    public function postDB($title) {
+        try {
+            $this->conn->abrirConexao();
+            // Usando prepared statement para prevenir SQL injection
+            $sql = "SELECT FROM `posts` WHERE `title` = ?";
+            $dados = $this->conn->execQueryPrep($sql, [$title]);
+            return $dados;
+        } catch (Exception $e) {
+            error_log("Erro ao excluir post: " . $e->getMessage());
+            return [];
+        } finally {
+            $this->conn->fecharConexao();
+        }
+    }
+
     public function excluirDB($title) {
         try {
             $this->conn->abrirConexao();

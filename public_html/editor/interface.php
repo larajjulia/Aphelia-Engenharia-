@@ -57,12 +57,11 @@
     </h1>
 
     <?php
-  echo "teste";
         include_once "../control/ConectarDB.php";
         $dotenv = parse_ini_file(".env");
-echo "teste";
+
         $conn = new ConectarDB($dotenv);
-  echo "teste";
+
         $count = $conn->getCountDB(); // Conta os comentários
         $paginas = ceil($count / 10); // Calcula o total de páginas necessárias
         $abaAtual = isset($_GET['abaAtual']) ? (int)$_GET['abaAtual'] : 1;

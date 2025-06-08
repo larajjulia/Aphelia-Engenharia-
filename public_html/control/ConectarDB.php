@@ -28,6 +28,10 @@ class ConectarDB {
         $this->conexao = $conexao;
     }
 
+    public function getConexao(){
+        return $this->conexao;
+    }
+
     public function abrirConexao() {
         try {
             // Se já existe uma conexão, não precisa conectar novamente
@@ -110,7 +114,6 @@ class ConectarDB {
         $this->conexao = null;
     }
     
-    // Método legado para compatibilidade com seu código
     public function fecharConn() {
         $this->fecharConexao();
     }
