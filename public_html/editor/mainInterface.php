@@ -35,7 +35,10 @@
     <input type="file" id="illustrativeImage" name="illustrativeImage" accept="image/*">
 
     <label for="content">Texto da Postagem</label>
-    <textarea id="content" name="content" rows="10" required></textarea>
+    <textarea id="content" name="content" rows="80" required></textarea>
+
+    <label for="content">Resumo da Postagem</label>
+    <textarea id="content" name="content" rows="5" required></textarea>
 
     <button type="submit">Publicar</button>
   </form>
